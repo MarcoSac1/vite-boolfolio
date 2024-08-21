@@ -1,10 +1,15 @@
 <script>
 import axios, { Axios } from 'axios';
-
+import ProjectCard from '../components/ProjectCard.vue';
 export default{
+    name:"",
+    components:{
+        ProjectCard
+    },
+
     data(){
         return{
-            posts:[],
+            posts:[]
         }
     },
     methods:{
@@ -30,12 +35,7 @@ export default{
 </script>
 
 <template>
-    <h1>body</h1>
-    <ul>
-        <li v-for="post in posts">
-            {{ post.title }}
-        </li>
-    </ul>
+    <ProjectCard/>
 </template>
 
 
