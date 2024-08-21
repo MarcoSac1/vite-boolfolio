@@ -1,20 +1,24 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+<script>
+  import MainHeader from './components/MainHeader.vue';
+  import MainFooter from './components/MainFooter.vue';
+  import AppMain from './components/AppMain.vue';
+
+
+    export default{
+      name:"",
+      components:{
+        MainHeader,
+        AppMain,
+        MainFooter
+      }
+
+    }
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <MainHeader/>
+  <AppMain/>
+  <MainFooter/>
 </template>
 
 <style scoped>
