@@ -31,16 +31,16 @@ export default{
 
 <template>
     <div class="tweet" v-for="post in posts">
-    <div class="tweet-header">
-        <img class="avatar" src="https://via.placeholder.com/50" alt="User Avatar">
-        <div class="tweet-info">
-            <span class="name">{{ post.title }}</span>
-            <span class="username">@johndoe</span>
-            <span class="time">· 2h</span>
+        <div class="tweet-header">
+            <img class="avatar" src="https://via.placeholder.com/50" alt="User Avatar">
+            <div class="tweet-info">
+                <span class="name">{{ post.user.name }}</span>
+                <span class="username">@{{ post.user.name }}</span>
+                <span class="time">· {{ post.creation_date }}</span>
+            </div>
         </div>
-    </div>
     <div class="tweet-content">
-        <p>{{ post.title }}</p>
+        <p>{{ post.content }}</p>
     </div>
     <div class="tweet-interactions">
         <span class="icon">💬 12</span>
@@ -49,11 +49,6 @@ export default{
         <span class="icon">📤</span>
     </div>
 </div>
-    <!-- <ul>
-        <li v-for="post in posts">
-            {{ post.title }}
-        </li>
-    </ul> -->
 </template>
 
 
