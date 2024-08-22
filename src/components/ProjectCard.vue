@@ -18,7 +18,8 @@ export default{
             console.log(response.data.results.data);
             this.posts = response.data.results.data;
         })
-        .catch(function (error) {
+        .catch((error)=> {
+            this.$router.push({name:"not-found"});
             console.log(error);
         });  
         }

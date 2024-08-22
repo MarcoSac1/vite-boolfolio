@@ -17,6 +17,7 @@
 
 <template>
   <MainHeader/>
+  <!-- <AppMain/> -->
   <RouterView>
 
   </RouterView>

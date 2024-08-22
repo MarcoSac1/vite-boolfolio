@@ -17,10 +17,19 @@ export default{
 </script>
 
 <template>
-    <h1>home</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <h1 class="my-4">Blitter!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aut dolores quos aliquid eaque harum accusantium blanditiis, quam itaque neque adipisci esse, iste, consectetur consequatur veritatis eos provident in placeat.ù</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 
 <style>
-
+.container{
+    height: 100vh;
+}
 </style>

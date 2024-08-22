@@ -17,7 +17,7 @@ export default{
 </script>
 
 <template>
-    <h1>PostList</h1>
+    <ProjectCard/>
 </template>
 
 
