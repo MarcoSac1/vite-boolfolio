@@ -1,23 +1,23 @@
 <script>
     import axios, { Axios } from 'axios';
-    import PostList from '../components/ProjectCard.vue'
+    import ProjectCard from '../components/ProjectCard.vue'
 
 export default{
     name:"",
     components:{
-        PostList
+        ProjectCard
     },
 
     data(){
         return{
-            
+            post:[],
         }
     },
 }
 </script>
 
 <template>
-    <h1>blog</h1>
+    <h1>PostList</h1>
 </template>
 
 

@@ -2,7 +2,20 @@
     export default{
         data(){
             return{
-
+                navLinkNames : [
+                    {
+                        label: "Homepage",
+                        name:"home",
+                    },
+                    {
+                        label: "Posts List",
+                        name:"posts",
+                    },
+                    {
+                        label: "About",
+                        name:"about",
+                    },
+                ]
             }
         }
     }
@@ -15,12 +28,15 @@
             <img src="https://abs.twimg.com/responsive-web/client-web/icon-ios.b1fc7275.png" alt="Twitter Logo">
         </div>
         <nav class="nav-menu">
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">About</a>
+            <ul class=" d-flex list-unstyled align-items-center">
+                <li v-for="navItem in navLinkNames" class="pt-3">
+                    <RouterLink :to="{name: navItem.name }" >{{ navItem.label }}</RouterLink>
+                </li>
+            </ul>
+            <!-- <a href="#">Blog</a>
+            <a href="#">About</a> -->
             <a href="#">Notifications</a>
             <a href="#">Messages</a>
-            <a href="#">Bookmarks</a>
             <a href="#">Profile</a>
         </nav>
         <div class="search-bar">
