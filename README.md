@@ -42,3 +42,9 @@ Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite
 
 Bonus:  Gestire la paginazione dei risultati
 Buon lavoro e buon divertimento!
+
+## Milestone 6
+Continuamo a lavorare sulle medesime repo, e ci occupiamo della gestione delle rotte all'interno della nostra pagina di front-office in Vue 3.
+
+Aggiungiamo almeno tre pagine di navigazione, e sperimentiamo con le rotte in modo da poter mostrare oltre che alla index dei progetti, anche la pagina relativa di show, raggiungibile direttamente dalla index (come visto a lezione)!
+Buon lavoro e buon divertimento!
