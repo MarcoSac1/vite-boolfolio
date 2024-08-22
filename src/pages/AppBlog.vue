@@ -1,11 +1,11 @@
 <script>
     import axios, { Axios } from 'axios';
-    
+    import PostList from '../components/ProjectCard.vue'
 
 export default{
     name:"",
     components:{
-        
+        PostList
     },
 
     data(){

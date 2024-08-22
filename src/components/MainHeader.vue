@@ -16,12 +16,12 @@
         </div>
         <nav class="nav-menu">
             <a href="#">Home</a>
-            <a href="#">Explore</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
             <a href="#">Notifications</a>
             <a href="#">Messages</a>
             <a href="#">Bookmarks</a>
             <a href="#">Profile</a>
-            <a href="#">More</a>
         </nav>
         <div class="search-bar">
             <input type="text" placeholder="Search Twitter">

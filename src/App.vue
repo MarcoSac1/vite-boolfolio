@@ -1,14 +1,14 @@
 <script>
   import MainHeader from './components/MainHeader.vue';
   import MainFooter from './components/MainFooter.vue';
-  import AppMain from './components/AppMain.vue';
+  // import AppMain from './components/AppMain.vue';
 
 
     export default{
       name:"",
       components:{
         MainHeader,
-        AppMain,
+        // AppMain,
         MainFooter
       }
 
@@ -18,7 +18,7 @@
 <template>
   <MainHeader/>
   <RouterView>
-    
+
   </RouterView>
   <MainFooter/>
 </template>
